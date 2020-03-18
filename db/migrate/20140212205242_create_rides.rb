@@ -5,3 +5,5 @@ class CreateRides < ActiveRecord::Migration
     end
   end
 end
+
+rails g migration add_passenger_id_to_rides passenger_id:integer --no-test-framework
